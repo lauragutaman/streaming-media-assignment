@@ -18,7 +18,7 @@
   "scripts": {
     "start": "node ./src/server.js",
     "pretest": "eslint ./src --fix",
-    "test": "echo\"Tests complete\""
+    "test": "echo \"Tests complete\""
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
