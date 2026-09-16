@@ -1,0 +1,28 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "streaming media assignment ",
+  "keywords": [],
+  "homepage": "https://github.com/lauragutaman/streaming-media-assignment#readme",
+  "bugs": {
+    "url": "https://github.com/lauragutaman/streaming-media-assignment/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lauragutaman/streaming-media-assignment.git"
+  },
+  "license": "UNLICENSED",
+  "author": "Laura Gutaman",
+  "type": "commonjs",
+  "main": "eslint.config.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo\"Tests complete\""
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.10.0",
+    "globals": "^17.12.0"
+  }
+}
