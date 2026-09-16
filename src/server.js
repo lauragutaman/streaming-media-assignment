@@ -18,6 +18,7 @@ const onRequest = (request, response) => {
 
         case '/client3.html':
             htmlHandler.getIndex3(request, response);
+            break;
 
 
         case '/party.mp4':
@@ -26,6 +27,7 @@ const onRequest = (request, response) => {
 
         case '/bling.mp3':
             mediaHandler.getBling(request, response);
+            break;
 
 
         case '/bird.mp4':
